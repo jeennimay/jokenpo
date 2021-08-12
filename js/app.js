@@ -42,14 +42,6 @@ jogadorOpition = () => {
 
 var jogadorChoice = jogadorOpition();
 
-/* const pedra = document.getElementById("pedra");
-const papel = document.getElementById("papel");
-const tesoura = document.getElementById("tesoura");
-
-pedra.addEventListener('click', () => { var jogadorChoice = "pedra"; jokenpo(jogadorChoice, computerChoice); });
-papel.addEventListener('click', () => { var jogadorChoice = "papel"; jokenpo(jogadorChoice, computerChoice); });
-tesoura.addEventListener('click', () => { var jogadorChoice = "tesoura"; jokenpo(jogadorChoice, computerChoice); }); */
-
 
 //const jogador = "Jenni";
 function jokenpo(jogadorChoice, computerChoice) {
@@ -70,60 +62,3 @@ function jokenpo(jogadorChoice, computerChoice) {
     }
 }
 //console.log(jokenpo("pedra", "papel"));
-
-
-/*switch (jogadorChoice, computerChoice) {
-        case jogadorChoice == "pedra" && computerChoice == "tesoura":
-            alert(`Vitoria ${jogador}` `\n Jokenpozinho: ${computerChoice} \n ${jogador}: ${jogadorChoice}`);
-            break;
-        case jogadorChoice == "tesoura" && computerChoice == "pedra":
-            alert("Vitoria do Jokenpozinho" `\n Jokenpozinho: ${computerChoice} \n ${jogador}: ${jogadorChoice}`);
-            break;
-        case jogadorChoice == "papel" && computerChoice == "pedra":
-            alert(`Vitoria ${jogador}` `\n Jokenpozinho: ${computerChoice} \n ${jogador}: ${jogadorChoice}`);
-            break;
-        case jogadorChoice == "pedra" && computerChoice == "papel":
-            alert("Vitoria do Jokenpozinho" `\n Jokenpozinho: ${computerChoice} \n ${jogador}: ${jogadorChoice}`);
-            break;
-        case jogadorChoice == "tesoura" && computerChoice == "papel":
-            alert(`Vitoria ${jogador} \n Jokenpozinho: ${computerChoice} \n ${jogador}: ${jogadorChoice}`);
-            break;
-        case jogadorChoice == "papel" && computerChoice == "tesoura":
-            alert("Vitoria do Jokenpozinho" `\n Jokenpozinho: ${computerChoice} \n ${jogador}: ${jogadorChoice}`);
-            break;
-        case jogadorChoice == computerChoice:
-            alert("Empate!" `\n Jokenpozinho: ${computerChoice} \n ${jogador}: ${jogadorChoice}`);
-            break;
-        //default:
-          //  alert("Opção invalida")
-          //  break;
-    }
-
-}
-jokenpo();*/
-
-/*
-function jokenpo(){
-    if (jogadorChoice == "pedra" && computerChoice == "tesoura") {
-        return alert("Vitoria do Jokenpozinho"); //"Pedra quebra tesoura";
-    } else if (jogadorChoice == "tesoura" && computerChoice == "pedra") {
-        return alert(`Vitoria ${jogador}`); //"Tesoura perde para pedra, pois pedra quebra tesoura";
-    } else if (jogadorChoice == "papel" && computerChoice == "pedra") {
-        return alert("Vitoria do Jokenpozinho"); //"Papel cobre a pedra";
-    } else if (jogadorChoice == "pedra" && computerChoice == "papel") {
-        return alert(`Vitoria ${jogador}`); //"Pedra perde para papel, pois papel cobre a pedra";
-    } else if (jogadorChoice == "tesoura" && computerChoice == "papel") {
-        return alert(`Vitoria ${jogador}`); //"Tesoura corta papel";
-    } else if (jogadorChoice == "papel" && computerChoice == "tesoura") {
-        return alert("Vitoria do Jokenpozinho"); //"papel perde pois, tesoura corta papel";
-    } else (jogadorChoice === computerChoice) {
-        return alert("Empate!");
-    };
-};
-*/
-
-/*
-//imprimndo no console os resultados
-console.log(`Opção do usuário: ${userChoice}`);
-console.log(`Opção da máquina: ${computerChoice}`);
-console.log(jogoPPT()); */
